@@ -7,7 +7,7 @@ import os
 
 
 client = MongoClient(os.getenv("db_url"))
-db = client["fr"]
+db = client["Face_Recognitions"]
 face_embeddings = db["face_embeddings"]
 
 
